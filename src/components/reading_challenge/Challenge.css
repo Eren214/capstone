@@ -1,0 +1,49 @@
+#banner Button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    color: orange; 
+    font-weight: bold;
+}
+#learn-arrow{
+    font-size: 30px;
+    color: orange; 
+    font-weight: 700;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin-top: 200px;
+    color: white;
+}
+
+.modal-content{
+   background-color:  rgb(77, 103, 185);
+}
+.modal-header{
+    color:black;
+    background-color: white !important;
+    width: 100%;
+}
+.modal-title{
+    margin-left: 30px;
+}
+.modal-footer{
+    background-color: white !important;
+    justify-content: center;
+}
+.modal-footer button{
+    width: 100px;
+}
+.modal-body h6{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.mb-3{
+    width: 80%;
+    justify-content: center;
+    margin-left: 40px;
+}

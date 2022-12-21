@@ -1,0 +1,104 @@
+/*---------Banner Section----*/
+.about-us{
+    margin-top: 200px;
+    color: white;
+}
+#banner p{
+    color: white;
+    align-items: center;
+    margin-left: 20px; 
+}
+/*------Mission-Vision Section---*/
+#legacy{
+    background-color: rgb(231, 236, 236);
+    align-items: center;
+    align-content: center;
+}
+#company-objectives{
+    padding-top: 20px;
+    margin-left:25px;
+    margin-right:20px;
+    
+}
+#company-objectives h2{
+    color: rgb(24,179,57);
+}
+#mission{
+    width: 80px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#mission-content h2,img{
+    margin-left: 200px;
+}
+#vision{
+    width: 80px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#vision-content h2,img{
+    margin-left: 200px;
+}
+
+/*--------HappyReader Team Section---*/
+#teams{
+    margin-right: 50px;
+    align-items: center;
+}
+
+#teams p{
+    margin-left:20px;
+    margin-right:20px;
+}
+.happy{
+    color: rgb(24, 179, 57);
+    margin-left: 300px;
+}
+.card{
+    background-color: rgb(24, 179, 57);
+    height: 100%;
+}
+.card-body{
+    align-self: center;
+}
+
+.card-img-top{
+    border-radius: 50%;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.card-title,.card-text{
+    color:white;
+}
+/*-----------History Section-----*/
+.work_experience{
+    /*margin-bottom: 20px;*/
+    background-color: rgb(231, 236, 236);
+  }
+.work_experience h1{
+    padding-bottom: 5px;
+}
+.order-last{
+    text-align: left;
+}
+.work_experience>.container>.row>.col.text-end{
+    border-right: 4px solid rgb(0, 66, 128);
+}
+.work_experience>.container>.row>.col.order-last{
+    border-left: 4px solid rgb(0, 66, 128);
+}
+.col.text-end::after,.col.order-last::after{
+    content: '\25c6';
+    font-size: 24px;
+    color: green;
+    position: relative;
+    right: -24px;
+    bottom: 130px;
+}
+.col.order-last::after{
+    left: -24px;
+}
+  

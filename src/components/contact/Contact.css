@@ -1,0 +1,41 @@
+.contact-title{
+    color: white;
+    align-items: center;
+    margin-left: 20px; 
+    margin-top: 200px;
+}
+/*------------FAQS-------*/
+#faqs{
+    padding: 10px 0;
+}
+
+#faqs h1{
+    font-family: 'Trebuchet MS';
+    font-weight: 500;
+}
+
+.accordion-item{
+    background: rgb(191, 247, 247);
+}
+/*-----------ContactForm---*/
+#contact-form{
+    padding: 10px 0;
+    background-color: rgb(250, 250, 112);
+}
+#contact-formcontent{
+    width: 50%;
+}
+.form-group input{
+    height: 50px;
+}
+.form-group label{
+    color: black;
+    font-weight: 600;
+}
+#contact-submit{
+    background-color: white;
+    color:black;
+    width: 100px;
+    font-weight: 600;
+  
+}
